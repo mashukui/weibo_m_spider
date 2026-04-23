@@ -133,8 +133,8 @@ def getLongText(v_id):
 5. 刷新页面，找到任意请求
 6. 复制 Request Headers 中的 Cookie 值
 7. 替换源码中的 `headers["cookie"]`
+<img width="2512" height="1612" alt="image" src="https://github.com/user-attachments/assets/85c70c62-d8fa-4fe6-bf68-b7fbcdec9699" />
 
-![](assets/17769184604187.jpg)
 
 
 ### 🛡️ 注意事项
