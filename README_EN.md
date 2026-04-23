@@ -44,23 +44,13 @@ This project is a Weibo data collection tool for Chinese developers, built on th
 ### Install Dependencies
 
 ```bash
-pip install requests pandas
+pip3 install requests pandas
 ```
 
 ### Basic Usage
 
-```python
-from weibo_m_spider import get_weibo_list
-
-# Configure search parameters
-search_keyword = 'crawfish'  # Search keyword
-max_search_page = 5          # Number of pages to crawl
-
-# Call the crawler function
-get_weibo_list(
-    v_keyword=search_keyword,
-    v_max_page=max_search_page
-)
+```bash
+python3 weibo_m_spider.py
 ```
 
 > ⚠️ **Only modify these 3 spots**: search keyword `search_keyword`, max pages `max_search_page`, and `cookie` (in the headers). Changing anything else may cause the code to fail.
