@@ -133,8 +133,7 @@ Appends data page by page to CSV, preventing data loss
 5. Refresh the page and find any request
 6. Copy the Cookie value from Request Headers
 7. Replace the `headers["cookie"]` in the source code
-
-![](assets/17769184604187.jpg)
+<img width="2512" height="1612" alt="image" src="https://github.com/user-attachments/assets/ee7af8bc-f11c-4646-b296-b044db7f1592" />
 
 
 ### 🛡️ Precautions
