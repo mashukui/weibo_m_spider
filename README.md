@@ -44,26 +44,16 @@
 ### 安装依赖
 
 ```bash
-pip install requests pandas
+pip3 install requests pandas
 ```
 
 ### 基本使用
 
-```python
-from weibo_m_spider import get_weibo_list
-
-# 配置搜索参数
-search_keyword = '小龙虾'  # 搜索关键字
-max_search_page = 5        # 爬取前几页
-
-# 调用爬取函数
-get_weibo_list(
-    v_keyword=search_keyword,
-    v_max_page=max_search_page
-)
+```bash
+python3 weibo_m_spider.py
 ```
 
-> ⚠️ **仅需修改这三处**：搜索关键词 `search_keyword`、最大页数 `max_search_page`、`cookie`（在源码 headers 中）。修改其他位置可能导致运行失败。
+> ⚠️ **运行前，仅需修改这三处**：搜索关键词 `search_keyword`、最大页数 `max_search_page`、`cookie`（在源码 headers 中）。修改其他位置可能导致运行失败。
 
 ## ⚙️ 核心原理
 
